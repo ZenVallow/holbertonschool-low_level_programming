@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void) {
+	int intType;
+	float floatType;
+	char charType;
+	long int longintType;
+	long long int longlongintType;
+
+	printf("%zu bytes\n", sizeof(intType));
+	printf("%zu bytes\n", sizeof(floatType));
+	printf("%zu bytes\n", sizeof(charType));
+	printf("%zu bytes\n", sizeof(longintType));
+	printf("%zu bytes\n", sizeof(longlongintType));
+	return (0);
+}
