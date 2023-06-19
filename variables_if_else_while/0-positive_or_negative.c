@@ -1,12 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
- * Description : 'Try if else'
- *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
