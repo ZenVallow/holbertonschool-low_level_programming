@@ -2,7 +2,7 @@
 /**
  * print_last_digit - add print_last_digit return printer.
  *
- *@a: use a to print the absolute value
+ *@number: use a to print the absolute value
  *
  * Return: lastdigit
  */
@@ -12,8 +12,8 @@ int print_last_digit(int number)
 
 	if (number >= 0)
 	{
-		_putchar('0');
-		 return (lastdigit);
+		_putchar('0' + lastdigit);
+		return (lastdigit);
 
 	}
 	else
