@@ -2,7 +2,7 @@
 /**
  * jack_bauer - add printer of every hours and every minutes of a day of jack.
  *
- *@int: print the value of time with hour and min
+ *@int: print the value of time with hour and min.
  *
  * Return: void
  */

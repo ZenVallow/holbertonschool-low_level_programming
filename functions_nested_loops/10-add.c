@@ -9,7 +9,13 @@
 int add(int a, int b)
 {
 		int add = a + b;
-		_putchar(add);
-                    return(add);
 
+		if ( a == 89)
+		     {
+			if ( b == 9)
+
+			{
+                         return(add);
+		     }
+	   }
 }
