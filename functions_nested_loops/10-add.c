@@ -1,12 +1,14 @@
 #include "main.h"
 /**
- * print_last_digit - add print_last_digit return printer.
+ * add - add the result of addition printer.
  *
- *@number: use a to print the absolute value
+ *@a: use for a addition
  *
- * Return: lastdigit
+ *@b: use for a addition
+ *
+ * Return: return the sum of a+b
  */
 int add(int a, int b)
 {
-	return( a + b );
+	return (a + b);
 }
