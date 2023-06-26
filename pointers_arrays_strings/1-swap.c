@@ -1,7 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * swap_int - check the code
+ *
+ *@a: one swapper of integer
+ *
+ *@b: same
  *
  * Return: Always 0.
  */
