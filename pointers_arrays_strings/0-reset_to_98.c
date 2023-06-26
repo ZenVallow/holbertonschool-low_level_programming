@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * reset_to_98 - check the code
  *
- * Return: Always 0.
+ *@n: swap value
+ *
+ * Return: void.
  */
 
 void reset_to_98(int *n)
