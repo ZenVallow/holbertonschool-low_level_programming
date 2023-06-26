@@ -7,30 +7,15 @@
  *
  *@b: same
  *
- *@sum: same
- *
  * Return: Always 0.
  */
 
 int mul(int a, int b)
 {
-	int sum = a * b;
 
-	if (a == 98 && b == 1024)
+	int sum;
 
-	{
+	sum = a * b;
 
-		return (sum);
-
-	}
-
-	if (a == -402 && b == 4096)
-
-	{
-
-		return (sum);
-
-	}
-
-	return (0);
+	return (sum);
 }
