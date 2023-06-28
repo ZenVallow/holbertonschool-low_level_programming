@@ -1,4 +1,5 @@
 #include "main.h"
+#include "2-strlen.c"
 
 /**
  * main - check the code
@@ -9,14 +10,18 @@
 void puts_half(char *str)
 
 {
-	int a = 0;
+	int index = 0;
+	int length = _strlen(str);
 
-	while (str[a] != '\0')
 
+        if (length % 2 == 1)
+		length--;
+
+	while (str[index] != '\0')
 	{
-		if (a >= 5)
-		_putchar(str[a]);
-		a++;
+		if (index >= length /2)
+		_putchar(str[index]);
+		index++;
 	}
 
 	_putchar('\n');
