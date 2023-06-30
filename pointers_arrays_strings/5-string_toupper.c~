@@ -1,0 +1,25 @@
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+
+char *string_toupper(char *)
+{
+	char str;
+	char *ptr;
+	int i;
+
+	for (i = 0; ptr[i] != '\0'; i++)
+	{
+		_putchar(ptr[i]);
+	}
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
+	return (0);
+}
