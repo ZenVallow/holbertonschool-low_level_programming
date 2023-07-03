@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _puts_recursion - check the code
  *
- * Return: Always 0.
+ *@s: char.
+ *
+ * Return: void.
  */
 
 void _puts_recursion(char *s)
