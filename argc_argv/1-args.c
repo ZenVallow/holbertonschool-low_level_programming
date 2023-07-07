@@ -4,14 +4,14 @@
  * main - check the code
  *
  *@argc: use for print the numbers of parameters.
+ *@argv: void.
  *
- *
- * Return - 0
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
 	(void)(argv);
 	printf("%d\n", argc - 1);
-	return 0;
+	return (0);
 }
