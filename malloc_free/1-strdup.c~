@@ -1,0 +1,36 @@
+#include "main.h"
+#include <stdlib.h>
+
+/**
+ * create_array - prints a array of char
+ * @c: the address of memory to print
+ * @size: the size of the memory to print
+ *
+ * Return: Null.
+ */
+
+char *_strdup(char *str)
+{
+	unsigned int line = 0;
+	unsigned int i;
+	char *cpy = malloc((line + 1) * sizeof(char));
+
+
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+	while(str[line] != '\0')
+	{
+		line++;
+	}
+	if (cpy == NULL)
+	{
+		return (NULL);
+	}
+	for (i = 0; i <= line; i++)
+	{
+		cpy[i] = str[i];
+	}
+	return (cpy);
+}
