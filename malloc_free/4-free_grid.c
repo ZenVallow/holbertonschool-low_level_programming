@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
+ * free_grid - free the memory
  *
+ *@height: check.
  *
- *
- *
+ *Return: Nothing.
  */
 
 void free_grid(int **grid, int height)
