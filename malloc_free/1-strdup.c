@@ -13,6 +13,7 @@ char *_strdup(char *str)
 {
 	unsigned int line = 0;
 	unsigned int i;
+	char *cpy;
 
 
 	if (str == NULL)
@@ -23,7 +24,7 @@ char *_strdup(char *str)
 	{
 		line++;
 	}
-	char *cpy = malloc((line + 1) * sizeof(char));
+	cpy = malloc((line + 1) * sizeof(char));
 	if (cpy == NULL)
 	{
 		return (NULL);
