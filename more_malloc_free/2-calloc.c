@@ -2,16 +2,18 @@
 #include "main.h"
 
 /**
+ *_calloc - allocates memory for an array
  *
+ *@nmemb: numero memory bytes.
  *
+ *@size: taille.
  *
- *
- *
- *
+ * Return: ptr.
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
+	void *ptr;
 	char *ptr2;
 	unsigned int totalsize;
 	unsigned int i;
@@ -21,11 +23,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 
-	void *ptr = malloc(nmemb * size);
+	ptr = malloc(nmemb * size);
 
 	if (ptr != NULL)
 	{
-		*ptr2 = ptr;
+		ptr2 = ptr;
 		totalsize = nmemb * size;
 
 		for (i = 0; i < totalsize; i++)
