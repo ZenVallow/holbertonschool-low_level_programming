@@ -18,5 +18,10 @@ void print_name(char *name, void (*f)(char *))
 		return;
 	}
 
+	if (f == NULL)
+	{
+		return;
+	}
+
 	(*f)(name);
 }
