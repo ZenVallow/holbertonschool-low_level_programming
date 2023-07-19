@@ -8,12 +8,19 @@
  *
  * @size: number of integer
  *
+ * @cmp: pointer of function
+ *
  * Return: -1 if element is false.
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
+
+	if (array == NULL)
+	{
+		return (-1);
+	}
 
 	if (size <= 0)
 	{
