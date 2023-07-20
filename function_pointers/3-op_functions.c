@@ -9,7 +9,7 @@
  *
  * @b: Number 2
  *
- * Return : sum
+ * Return: sum
  */
 
 int op_add(int a, int b)
@@ -28,7 +28,7 @@ int op_add(int a, int b)
  *
  *@b: Number 2
  *
- * Return : dif.
+ * Return: dif.
  */
 int op_sub(int a, int b)
 {
@@ -59,7 +59,6 @@ int op_mul(int a, int b)
 }
 
 /**
- *
  * op_div - operator who made a division
  *
  * @a: Number 1
@@ -85,7 +84,7 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod: operator who made a euclidian division
+ * op_mod - operator who made a euclidian division
  *
  * @a: Number 1
  *
@@ -100,7 +99,7 @@ int op_mod(int a, int b)
 
 	if (b == 0)
 	{
-		printf("Error");
+		printf("Error\n");
 		exit(100);
 	}
 
