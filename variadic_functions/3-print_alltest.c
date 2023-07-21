@@ -46,10 +46,9 @@
 	{
 		char *s;
 		s = va_arg(args, char*);
-
 	}
 
-	void print_all(const char * const Format, ...)
+	void print_all(const char * const format, ...)
 	{
 
 	va_list args;

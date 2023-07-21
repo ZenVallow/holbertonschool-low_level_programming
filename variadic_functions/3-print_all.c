@@ -1,22 +1,18 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-
 /**
  * print_all - Function who print anything
- *
  *@format: array for print different types of characters or integers.
- *
  *Return: void.
  */
 
 void print_all(const char * const format, ...)
 {
 	va_list args;
-	char c;
+	char c, *s;
 	int index, i;
 	float f;
-	char *s;
 
 	va_start(args, format);
 	while (format && format[index])
@@ -41,6 +37,7 @@ void print_all(const char * const format, ...)
 			if (s == NULL)
 			{
 				printf("(nil)");
+				break;
 			}
 			printf("%s", s);
 			break;
